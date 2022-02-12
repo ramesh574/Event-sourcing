@@ -35,7 +35,7 @@ ____
  * I write database for relational concerns<br>
  * I read database for querying concerns<br>
  When user create or update an order, I am going to use relational write database, and when user query order or order history, I am going to use no-sql read database. and make consistent them when syncing 2 databases with using message broker system with applying publish.<br>
- ______
+ 
  *The following diagram illustrates how the seat reservation subsystem of the conference management system might be implemented using event sourcing.
 
  ## Advantages of Event Sourcing
