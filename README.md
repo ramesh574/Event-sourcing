@@ -29,7 +29,7 @@ ____
  _____
  * We are going to Design our e-commerce Architecture with applying Event Sourcing architecture<br>
  <br>
- ![](https://miro.medium.com/max/700/0*7eJ0BbGmFl2mHsiO.png)<br>
+ <br>
  * Now We can Design our Ordering microservices databases
  <br>
  * I write database for relational concerns<br>
@@ -37,7 +37,6 @@ ____
  When user create or update an order, I am going to use relational write database, and when user query order or order history, I am going to use no-sql read database. and make consistent them when syncing 2 databases with using message broker system with applying publish.<br>
  ______
  *The following diagram illustrates how the seat reservation subsystem of the conference management system might be implemented using event sourcing.
- ![](https://docs.microsoft.com/en-us/azure/architecture/patterns/_images/event-sourcing-bounded-context.png)
 
  ## Advantages of Event Sourcing
  ___
